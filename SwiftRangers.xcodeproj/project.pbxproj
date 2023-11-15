@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2148CD562B03B6FD003A3549 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD552B03B6FD003A3549 /* test.swift */; };
+		2148CD582B050821003A3549 /* dayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD572B050821003A3549 /* dayOne.swift */; };
+		2148CD5A2B05082A003A3549 /* dayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD592B05082A003A3549 /* dayTwo.swift */; };
+		2148CD5C2B050836003A3549 /* dayThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD5B2B050836003A3549 /* dayThree.swift */; };
+		2148CD5E2B050841003A3549 /* dayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD5D2B050841003A3549 /* dayFour.swift */; };
+		2148CD602B05084C003A3549 /* dayZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD5F2B05084C003A3549 /* dayZero.swift */; };
+		2148CD622B05085C003A3549 /* dayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD612B05085C003A3549 /* dayFive.swift */; };
+		2148CD642B050868003A3549 /* daySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD632B050868003A3549 /* daySix.swift */; };
 		5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */; };
 		5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6712AFADF05004ABB4F /* ContentView.swift */; };
 		5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6F6732AFADF08004ABB4F /* Assets.xcassets */; };
@@ -19,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2148CD552B03B6FD003A3549 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		2148CD572B050821003A3549 /* dayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayOne.swift; sourceTree = "<group>"; };
+		2148CD592B05082A003A3549 /* dayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayTwo.swift; sourceTree = "<group>"; };
+		2148CD5B2B050836003A3549 /* dayThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayThree.swift; sourceTree = "<group>"; };
+		2148CD5D2B050841003A3549 /* dayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayFour.swift; sourceTree = "<group>"; };
+		2148CD5F2B05084C003A3549 /* dayZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayZero.swift; sourceTree = "<group>"; };
+		2148CD612B05085C003A3549 /* dayFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayFive.swift; sourceTree = "<group>"; };
+		2148CD632B050868003A3549 /* daySix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daySix.swift; sourceTree = "<group>"; };
 		5DE6F66C2AFADF05004ABB4F /* SwiftRangers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRangers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStoryTemplateApp.swift; sourceTree = "<group>"; };
 		5DE6F6712AFADF05004ABB4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67D2AFAE3DF004ABB4F /* Chapter1View.swift */,
+				2148CD552B03B6FD003A3549 /* test.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -102,6 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */,
+				2148CD572B050821003A3549 /* dayOne.swift */,
+				2148CD592B05082A003A3549 /* dayTwo.swift */,
+				2148CD5B2B050836003A3549 /* dayThree.swift */,
+				2148CD5D2B050841003A3549 /* dayFour.swift */,
+				2148CD5F2B05084C003A3549 /* dayZero.swift */,
+				2148CD612B05085C003A3549 /* dayFive.swift */,
+				2148CD632B050868003A3549 /* daySix.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -192,12 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2148CD642B050868003A3549 /* daySix.swift in Sources */,
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
+				2148CD602B05084C003A3549 /* dayZero.swift in Sources */,
+				2148CD5A2B05082A003A3549 /* dayTwo.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
+				2148CD582B050821003A3549 /* dayOne.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
+				2148CD622B05085C003A3549 /* dayFive.swift in Sources */,
+				2148CD562B03B6FD003A3549 /* test.swift in Sources */,
+				2148CD5C2B050836003A3549 /* dayThree.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
+				2148CD5E2B050841003A3549 /* dayFour.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
