@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE4957D2B064C3C00B921A3 /* astronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4957C2B064C3C00B921A3 /* astronautView.swift */; };
+		1AE4957F2B064CE500B921A3 /* toolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4957E2B064CE500B921A3 /* toolsView.swift */; };
 		2148CD562B03B6FD003A3549 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD552B03B6FD003A3549 /* test.swift */; };
 		2148CD582B050821003A3549 /* dayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD572B050821003A3549 /* dayOne.swift */; };
 		2148CD5A2B05082A003A3549 /* dayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148CD592B05082A003A3549 /* dayTwo.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AE4957C2B064C3C00B921A3 /* astronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astronautView.swift; sourceTree = "<group>"; };
+		1AE4957E2B064CE500B921A3 /* toolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolsView.swift; sourceTree = "<group>"; };
 		2148CD552B03B6FD003A3549 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		2148CD572B050821003A3549 /* dayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayOne.swift; sourceTree = "<group>"; };
 		2148CD592B05082A003A3549 /* dayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayTwo.swift; sourceTree = "<group>"; };
@@ -119,13 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */,
+				2148CD5F2B05084C003A3549 /* dayZero.swift */,
 				2148CD572B050821003A3549 /* dayOne.swift */,
 				2148CD592B05082A003A3549 /* dayTwo.swift */,
 				2148CD5B2B050836003A3549 /* dayThree.swift */,
 				2148CD5D2B050841003A3549 /* dayFour.swift */,
-				2148CD5F2B05084C003A3549 /* dayZero.swift */,
 				2148CD612B05085C003A3549 /* dayFive.swift */,
 				2148CD632B050868003A3549 /* daySix.swift */,
+				1AE4957E2B064CE500B921A3 /* toolsView.swift */,
+				1AE4957C2B064C3C00B921A3 /* astronautView.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -221,12 +227,14 @@
 				2148CD602B05084C003A3549 /* dayZero.swift in Sources */,
 				2148CD5A2B05082A003A3549 /* dayTwo.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				1AE4957F2B064CE500B921A3 /* toolsView.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				2148CD582B050821003A3549 /* dayOne.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				2148CD622B05085C003A3549 /* dayFive.swift in Sources */,
 				2148CD562B03B6FD003A3549 /* test.swift in Sources */,
+				1AE4957D2B064C3C00B921A3 /* astronautView.swift in Sources */,
 				2148CD5C2B050836003A3549 /* dayThree.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				2148CD5E2B050841003A3549 /* dayFour.swift in Sources */,

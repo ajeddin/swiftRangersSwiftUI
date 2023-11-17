@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct daySix: View {
+    @State private var currentDay = 6
+    
     var body: some View {
         ZStack {
             Image("daySix")
@@ -17,15 +19,17 @@ struct daySix: View {
             ScrollView {
                 Spacer()
                 VStack() {
-                    Circle()
-                        .fill(Color.blue)
-                    Circle()
-                        .fill(Color.red)
+                    Text("Day \(currentDay): Scientific Exploration of Planet")
+                        .font(.headline)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .underline()
+                        .italic()
+                    Image("arrival1")
+                   Text("Let's celebrate this monumental occasion. Not only did we achieve all of our objectives, but we also have moments to enjoy the journey to a new planet.")
                 }
-                .padding()
             }
-            .frame(width: 277,height: 390)
-            .offset(y: -64)
+            .frame(width: 250,height: 390)
+            .offset(y: -52)
         }
     }
 }
